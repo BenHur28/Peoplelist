@@ -5,6 +5,11 @@ namespace Peoplelist.Controllers
 {
     public class PersonController : Controller
     {
+        private readonly DatabaseContext _ctx;
+        public PersonController(DatabaseContext ctx) {
+            _ctx = ctx;
+        }
+
         public IActionResult Index(){
             // ViewBag and ViewData can send data only from ControllerToView
             ViewBag.greetings = "Hello World";
@@ -20,12 +25,20 @@ namespace Peoplelist.Controllers
         }
 
         [HttpPost] public IActionResult AddPerson(Person person){
-            if(!ModelState.IsValid)
-            {
+            if(!ModelState.IsValid){
                 return View();
             }
-            TempData["msg"] = "Added";
-            return View()
+            try{
+                _ctx.Person.Add(person);
+                _ctx.SaveChanges();
+                TempData["msg"] = "Added successfully";
+                return RedirectToAction("AddPerson");
+
+            }
+            catch (Exception ex){
+                TempData["msg"] = "Could not added!!!";
+                return View();
+            }
         }
     }
 }
