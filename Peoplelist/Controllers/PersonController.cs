@@ -2,7 +2,8 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace Peoplelist.Controllers 
 {
-    public class PersonController : Controller{
+    public class PersonController : Controller
+    {
         public IActionResult Index(){
             // ViewBag and ViewData can send data only from ControllerToView
             ViewBag.greetings = "Hello World";
@@ -10,6 +11,10 @@ namespace Peoplelist.Controllers
 
             // TempData can send data from 1 controller method to another controller method
             TempData["greeting3"] = "This is TempData";
+            return View();
+        }
+
+        public IActionResult AddPerson(){
             return View();
         }
     }
