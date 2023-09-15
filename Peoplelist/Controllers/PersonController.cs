@@ -20,7 +20,12 @@ namespace Peoplelist.Controllers
         }
 
         [HttpPost] public IActionResult AddPerson(Person person){
-            return View();
+            if(!ModelState.IsValid)
+            {
+                return View();
+            }
+            TempData["msg"] = "Added";
+            return View()
         }
     }
 }
