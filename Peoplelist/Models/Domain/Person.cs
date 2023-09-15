@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace MvcCoreTutorial.Models.Domain
+namespace Peoplelist.Models.Domain
 {
     public class Person
     {

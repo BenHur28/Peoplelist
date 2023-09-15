@@ -1,4 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
+using Peoplelist.Models.Domain;
 
 namespace Peoplelist.Controllers 
 {
@@ -19,7 +20,7 @@ namespace Peoplelist.Controllers
         }
 
         [HttpPost] public IActionResult AddPerson(Person person){
-            return View()
+            return View();
         }
     }
 }
