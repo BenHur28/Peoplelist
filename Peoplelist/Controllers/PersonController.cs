@@ -35,10 +35,16 @@ namespace Peoplelist.Controllers
                 return RedirectToAction("AddPerson");
 
             }
-            catch (Exception ex){
+            catch (Exception e){
                 TempData["msg"] = "Could not added!!!";
                 return View();
             }
+        }
+
+        public IActionResult DisplayPersons()
+        {
+            var persons = _ctx.Person.ToList();
+            return View(persons);
         }
     }
 }
