@@ -11,12 +11,6 @@ namespace Peoplelist.Controllers
         }
 
         public IActionResult Index(){
-            // ViewBag and ViewData can send data only from ControllerToView
-            ViewBag.greetings = "Hello World";
-            ViewData["greeting2"] = "I am using ViewData";
-
-            // TempData can send data from 1 controller method to another controller method
-            TempData["greeting3"] = "This is TempData";
             return View();
         }
 
@@ -33,7 +27,6 @@ namespace Peoplelist.Controllers
                 _ctx.SaveChanges();
                 TempData["msg"] = "Added successfully";
                 return RedirectToAction("AddPerson");
-
             }
             catch (Exception e){
                 TempData["msg"] = "Could not added!!!";
@@ -41,10 +34,45 @@ namespace Peoplelist.Controllers
             }
         }
 
-        public IActionResult DisplayPersons()
-        {
+        public IActionResult DisplayPersons(){
             var persons = _ctx.Person.ToList();
             return View(persons);
+        }
+
+        public IActionResult EditPerson(int id)
+        {
+            var person = _ctx.Person.Find(id);
+            return View(person);
+        }
+
+        [HttpPost] public IActionResult EditPerson(Person person)
+        {
+            if (!ModelState.IsValid){
+                return View();
+            }
+            try{
+                _ctx.Person.Update(person);
+                _ctx.SaveChanges();
+                return RedirectToAction("DisplayPersons");
+            }
+            catch (Exception e){
+                TempData["msg"] = "Could not update!!!";
+                return View();
+            }
+        }
+
+        public IActionResult DeletePerson(int id)
+        {
+            try{
+                var person = _ctx.Person.Find(id);
+                if (person != null){
+                    _ctx.Person.Remove(person);
+                    _ctx.SaveChanges();
+                }
+            }
+            catch (Exception e){
+            }
+            return RedirectToAction("DisplayPersons");
         }
     }
 }
