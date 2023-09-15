@@ -9,29 +9,29 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Peoplelist
 build_property.RootNamespace = Peoplelist
-build_property.ProjectDir = c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\
+build_property.ProjectDir = C:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist
+build_property.MSBuildProjectDirectory = C:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/Person/AddPerson.cshtml]
+[C:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/Person/AddPerson.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEFkZFBlcnNvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/Person/Index.cshtml]
+[C:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/shared/_Layout.cshtml]
+[C:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/_ViewImports.cshtml]
+[C:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[c:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/_ViewStart.cshtml]
+[C:/Users/Ben/Desktop/C\#/Peoplelist/Peoplelist/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
