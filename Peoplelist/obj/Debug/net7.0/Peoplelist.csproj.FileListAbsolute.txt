@@ -20,9 +20,7 @@ c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\staticwebassets\m
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\staticwebassets.pack.json
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\staticwebassets.build.json
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\staticwebassets.development.json
-c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\scopedcss\bundle\Peoplelist.styles.css
-c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\scopedcss\projectbundle\Peoplelist.bundle.scp.css
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\Peoplelist.dll
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\refint\Peoplelist.dll
 c:\Users\Ben\Desktop\C#\Peoplelist\Peoplelist\obj\Debug\net7.0\Peoplelist.pdb
