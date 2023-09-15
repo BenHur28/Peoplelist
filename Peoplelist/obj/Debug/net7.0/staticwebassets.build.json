@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "On+kIDoWlyeichSzmK2YWn3vHsLa+Ht7sXoQvYNkyo8=",
+  "Hash": "d4PEOIcLrt8hp7FA2WIjjRqz08f1+hlThjftKfL4JPs=",
   "Source": "Peoplelist",
   "BasePath": "_content/Peoplelist",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Peoplelist\\wwwroot",
       "Source": "Peoplelist",
-      "ContentRoot": "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\wwwroot\\",
       "BasePath": "_content/Peoplelist",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\wwwroot\\favicon.ico",
+      "Identity": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\wwwroot\\favicon.ico",
       "SourceId": "Peoplelist",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\wwwroot\\",
+      "ContentRoot": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\wwwroot\\",
       "BasePath": "_content/Peoplelist",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

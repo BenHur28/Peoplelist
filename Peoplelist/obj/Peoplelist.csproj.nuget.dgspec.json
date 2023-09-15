@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj": {}
+    "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj": {
+    "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj",
+        "projectUniqueName": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj",
         "projectName": "Peoplelist",
-        "projectPath": "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj",
+        "projectPath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Peoplelist.csproj",
         "packagesPath": "C:\\Users\\Ben\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\obj\\",
+        "outputPath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Ben\\AppData\\Roaming\\NuGet\\NuGet.Config"
