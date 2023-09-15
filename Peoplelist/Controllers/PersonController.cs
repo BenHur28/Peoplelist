@@ -17,5 +17,9 @@ namespace Peoplelist.Controllers
         public IActionResult AddPerson(){
             return View();
         }
+
+        [HttpPost] public IActionResult AddPerson(Person person){
+            return View()
+        }
     }
 }
