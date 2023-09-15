@@ -24027,16 +24027,6 @@
   "RootNamespace": "Peoplelist",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
@@ -24044,21 +24034,6 @@
     {
       "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\Ben\\Desktop\\C#\\Peoplelist\\Peoplelist\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     }
   ]
